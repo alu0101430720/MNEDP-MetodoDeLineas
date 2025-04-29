@@ -68,4 +68,16 @@ main(20, 100)  % Ejemplo con m=20 y n=100
 % Para comparar todos los métodos:
 % main(10, 10)
 % Seleccionar la opción 3
-ResultadosEl programa genera:Gráficos de las soluciones numéricas y la solución exacta.Gráficos de la evolución del error en el tiempo.Comparaciones de los errores entre los diferentes métodos.Archivos de texto con los valores de los errores.ConclusionesLos resultados muestran la efectividad de los métodos numéricos implementados para resolver la ecuación de advección-difusión. El método de Crank-Nicol
+```
+## Resultados
+El programa genera: 
+- Gráficos de las soluciones numéricas y la solución exacta.
+- Gráficos de la evolución del error en el tiempo.
+- Comparaciones de los errores entre los diferentes métodos.
+- Archivos de texto con los valores de los errores.
+
+## Conclusiones
+Los resultados muestran la efectividad de los métodos numéricos implementados para resolver la ecuación de advección-difusión. El método de Crank-Nicolson, en particular, destaca por su precisión. El uso de la función `pdepe` de MATLAB proporciona una solución de referencia para comparar con las implementaciones manuales.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT - consulte el archivo LICENSE para más detalles.
