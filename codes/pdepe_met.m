@@ -1,5 +1,7 @@
-% 2025 Carlos Yanes Pérez
-% Programa realizado para la asignatura de MNEDP de la ULL.
+% MIT License
+% Copyright (c) 2025 Carlos Yanes Pérez
+% https://github.com/alu0101430720/MNEDP-MetodoDeLineas/tree/main
+
 
 function W=pdepe_met(x, t)
 
